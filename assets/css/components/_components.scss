@@ -1,29 +1,32 @@
 // -----------------------------------------col-md-1---------------------------------------------
-.col-md-1{
-    background-color: $bg-sidebar;
-    min-height: 100%;
-    max-width: 7%;
-
-    .row-icon{
-        padding: 1.5rem 0.2rem;
-        height: 100%;
-        @include flexclmn;
-        gap: 8rem;
-
-        .row-icon-top{
-            gap: 1.5rem;
+.row{
+    height: 100vh;
+    .col-md-1{
+        background-color: $bg-sidebar;
+        max-width: 7%;
+    
+        .row-icon{
+            padding: 1.5rem 0.2rem;
+            height: 100%;
             @include flexclmn;
-
-            .icon-top-3{
+            gap: 8rem;
+    
+            .row-icon-top{
+                gap: 1.5rem;
                 @include flexclmn;
-                border:1px solid $bg-circle;
-                padding: 0.7rem;
-                border-radius: 50%;
-                background-color: $bg-circle;
+    
+                .icon-top-3{
+                    @include flexclmn;
+                    border:1px solid $bg-circle;
+                    padding: 0.7rem;
+                    border-radius: 50%;
+                    background-color: $bg-circle;
+                }
             }
         }
     }
 }
+
 
 // ------------------------------------------col-md-12-container/sidebar-------------------------------------------------
 .container{
