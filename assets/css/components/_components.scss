@@ -30,6 +30,8 @@
     padding: 2.5rem 1rem;
 
     .sidebar{
+
+    
        @include fontfamily1;
     //todo فونت exo 2 اعمال نمیشه!!
         .sidebar-title{
@@ -171,8 +173,15 @@
         @include flexbetween;
         @include borderbox;
 
+        img{
+            width: 35%;
+        }
+
         .item-content{
-            @include flexmiddle;
+            @include flexcenter;
+            h3{
+                padding-left: 2px;
+            }
         }
     }
  }
