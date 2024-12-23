@@ -1,0 +1,17 @@
+.container-fluid{
+    .row{
+        .col-md-1{
+            height: 100%;
+            .col-icon{
+                background-color: $bg-sidebar;
+                height: 100%;
+               @include flexclmn;
+                
+            }
+        }
+    }
+}
+
+
+
+
