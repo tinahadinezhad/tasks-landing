@@ -39,7 +39,6 @@
             }
             padding-bottom: 1.5rem;
             padding-right: 1rem;
-
         }
 
         .sidebar-list{
@@ -47,14 +46,11 @@
             gap: 1rem;
 
             .sidebar-item{
-
-
                 .sidebar-link.hover{
                     color: black;
                     //todo اعمال نمیشه
                 }
 
-                
                 .sidebar-link{
                     @include fontfamily1;
                     font-size: 0.9rem;
@@ -67,8 +63,56 @@
     }
 }
 
+//-----------------------------------------------------------container-panel-header-------------------------------------------
+.panel-header{
+    margin-bottom: 2rem;
+    @include flexbetween;
+   
+    .panel-header-top{
+        @include fontfamily1;
+        font-weight: 700;
+        font-size: medium;
+    }
 
- 
+    .panel-section{
+
+        img{
+            max-width: 6%;
+        }
+
+     @include flexmiddle;
+     gap: 1rem;
+
+     .date{
+        color: $gray;
+        @include fontfamily1;
+        font-weight: 700;
+        word-spacing: 0.1px;
+     }
+
+     .section-image{
+        max-width: 15%;
+        border-radius: 50%;
+     }
+       
+    }
+}
+//-----------------------------------------------------------container-panel-title-------------------------------------------------
+ .panel-title{
+    @include flexbetween;
+   padding-bottom: 0.5rem;
+    .title-item{
+        a{
+            text-decoration: none;
+            color: black;
+            @include fontfamily2;
+            //todo فونت اعمال نمیشه
+        }
+    }
+
+
+
+ }
 
 
 

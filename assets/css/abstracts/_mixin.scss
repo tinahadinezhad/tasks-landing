@@ -18,10 +18,25 @@
     align-items: center;
 }
 
+@mixin flexmiddle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @mixin fontfamily1{
     font-family:'exo 2',monospace;
     font-weight: 400;
     h1{
+        font-weight: 700;
+    }
+}
+
+
+@mixin fontfamily2{
+    font-family:'inter',monospace;
+    font-weight: 400;
+    h4{
         font-weight: 700;
     }
 }
