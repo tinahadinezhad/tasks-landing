@@ -103,14 +103,52 @@
    padding-bottom: 0.5rem;
     .title-item{
         a{
-            text-decoration: none;
+            text-decoration:none;
             color: black;
             @include fontfamily2;
             //todo فونت اعمال نمیشه
+            font-weight: bold;
+            font-size: small;
+            
+            
         }
+        border-bottom: 2px solid black;
     }
 
 
+    .title-btn{
+        
+        a{
+            @include flexmiddle;
+        gap: 1rem;
+
+            text-decoration: none;
+            color: white;
+            background-color: $bg-sidebar;
+            padding: 0.5rem 1rem;
+            font-weight: bold;
+            font-size: smaller;
+            border-radius: 20px;
+
+            img{
+                background-color: white;
+                border-radius: 50%;
+                width: 15%;
+            }
+        }
+
+        //todo underline this row!
+
+        //--------------------------------------------------container-panel-row---------------------------------------------------------
+    }
+
+ }
+
+ .panel-btn{
+
+    button{
+      @include btn-primary;
+    }
 
  }
 

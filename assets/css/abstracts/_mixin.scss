@@ -40,3 +40,12 @@
         font-weight: 700;
     }
 }
+
+@mixin btn-primary{
+    padding: 0.2rem 1.1rem;
+    background-color: $primary;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border-color: transparent;
+}
