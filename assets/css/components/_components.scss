@@ -1,16 +1,19 @@
-.container-fluid{
-    .row{
-        .col-md-1{
-            height: 100%;
-            .col-icon{
-                background-color: $bg-sidebar;
-                height: 100%;
-               @include flexclmn;
-                
-            }
+
+.col-md-1{
+    background-color: $bg-sidebar;
+    min-height: 100%;
+    .row-icon{
+        padding: 2rem 0.2rem;
+        height: 100%;
+        @include flexclmn;
+        gap: 8rem;
+        .row-icon-top{
+            gap: 1.5rem;
+            @include flexclmn
         }
     }
 }
+ 
 
 
 
