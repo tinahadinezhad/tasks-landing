@@ -1,18 +1,64 @@
-
+// -----------------------------------------col-md-1---------------------------------------------
 .col-md-1{
     background-color: $bg-sidebar;
     min-height: 100%;
+    max-width: 7%;
+
     .row-icon{
-        padding: 2rem 0.2rem;
+        padding: 1.5rem 0.2rem;
         height: 100%;
         @include flexclmn;
         gap: 8rem;
+
         .row-icon-top{
             gap: 1.5rem;
-            @include flexclmn
+            @include flexclmn;
+
+            .icon-top-3{
+                @include flexclmn;
+                border:1px solid $bg-circle;
+                padding: 0.7rem;
+                border-radius: 50%;
+                background-color: $bg-circle;
+            }
         }
     }
 }
+
+// ------------------------------------------col-md-12-container/sidebar-------------------------------------------------
+.container{
+    padding: 2.5rem 1rem;
+
+    .sidebar{
+       @include fontfamily1;
+    //todo فونت exo 2 اعمال نمیشه!!
+        .sidebar-title{
+            @include flexbetween;
+            h1{
+                font-size: 1.5rem;
+            }
+            padding-bottom: 1.5rem;
+
+        }
+
+        .sidebar-list{
+            @include flexcenter;
+            gap: 1rem;
+
+            .sidebar-item{
+
+
+
+                .sidebar-link{
+                    @include fontfamily1;
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+
  
 
 

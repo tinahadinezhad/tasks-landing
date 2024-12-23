@@ -1,8 +1,8 @@
 @import './pages/globals';
 @import './abstracts/mixin';
 @import './abstracts/variables';
-@import './base/fonts';
 @import './components/components';
 @import './components/buttons';
+@import url(../css/base/fonts.min.css);
 
 
