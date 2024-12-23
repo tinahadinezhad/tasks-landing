@@ -61,3 +61,13 @@
     }
     margin-bottom: 1rem;
 }
+
+@mixin btn-action{
+    width: 6rem;
+    height: 2rem;
+    background-color: $primary;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border-color: transparent;
+}

@@ -183,6 +183,19 @@
                 padding-left: 2px;
             }
         }
+
+        button{
+            @include btn-action;
+            font-size: small;
+        }
+
+        .btn-secondary{
+            background-color: $secondary;
+        }
+
+        .btn-thirdy{
+            background-color: $thirdy;
+        }
     }
  }
 
