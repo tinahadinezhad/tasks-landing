@@ -139,18 +139,39 @@
 
         //todo underline this row!
 
-        //--------------------------------------------------container-panel-row---------------------------------------------------------
     }
 
  }
+ //--------------------------------------------------container-panel-row---------------------------------------------------------
 
  .panel-btn{
 
     button{
       @include btn-primary;
     }
-
  }
+
+ .panel-row{
+
+
+    .panel-col-title{
+
+        @include flexbetween;
+
+        .col-title{
+            font-size: smaller;
+            font-weight: 600;
+            color: $gray;
+        }
+    }
+
+    .row-item{
+        @include flexbetween;
+        @include borderbox;
+    }
+ }
+
+
 
 
 
