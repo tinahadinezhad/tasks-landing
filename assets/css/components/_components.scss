@@ -38,6 +38,7 @@
                 font-size: 1.5rem;
             }
             padding-bottom: 1.5rem;
+            padding-right: 1rem;
 
         }
 
@@ -48,10 +49,18 @@
             .sidebar-item{
 
 
+                .sidebar-link.hover{
+                    color: black;
+                    //todo اعمال نمیشه
+                }
 
+                
                 .sidebar-link{
                     @include fontfamily1;
-                    font-size: 1rem;
+                    font-size: 0.9rem;
+                    font-weight: 700;
+                    padding: 1.3rem 0.5rem;
+                    color: $gray;
                 }
             }
         }
