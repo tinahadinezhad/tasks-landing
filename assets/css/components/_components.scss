@@ -161,6 +161,9 @@
     .panel-col-title{
 
         @include flexbetween;
+       
+
+        margin:1rem 0;
 
         .col-title{
             font-size: smaller;
